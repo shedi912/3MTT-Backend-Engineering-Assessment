@@ -40,7 +40,7 @@ method: POST
   "password": "your login password"
 }
 
-3. http://localhost:3000/api/blog/article/new : Add new article
+3. https://shedrack-3mtt-backend-assessment.onrender.com/api/blog/article/new : Add new article
     method:POST
     Authorization: "Bearer follow by access token"
 {
@@ -50,7 +50,7 @@ method: POST
   "tags": "Tech, web development",
   "body": "My journey in tech can be described as a gracefulled one. "
 }
-4. http://localhost:3000](https://shedrack-3mtt-backend-assessment.onrender.com/api/blog/article/list?page=1&per_page=20&search=author,shedrack&sortby=title,1 : get list of published blogs
+4. https://shedrack-3mtt-backend-assessment.onrender.com/api/blog/article/list?page=1&per_page=20&search=author,shedrack&sortby=title,1 : get list of published blogs
 method:GET
 
 this endpoint returns totalArticles so frontend can build pagination system
