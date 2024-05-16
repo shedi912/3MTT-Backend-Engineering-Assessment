@@ -1,6 +1,5 @@
 import express from "express";
 import cors from "cors"; //only installed due to core error
-import cookieParser from "cookie-parser";
 // import session from "express-session";
 import {userRoute} from "./routes/user.js";
 import {articleRoute} from "./routes/article.js";
