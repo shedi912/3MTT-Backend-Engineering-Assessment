@@ -4,9 +4,8 @@ dotenv.config();
 
 
 
-function connect(){
+async function connect(){
     mongoose.connect(process.env.CONNECTION_STRING);
-    
 }
 
 export{connect};
