@@ -10,3 +10,9 @@
 {"level":"info","message":"getAllPublishedBlogs function: published blog successfully returned to both login and not login users","timestamp":"2024-05-16T11:53:37.676Z"}
 {"level":"info","message":"validateToken function: User token successfully validated and acceess granted","timestamp":"2024-05-16T11:54:31.151Z"}
 {"level":"info","message":"getOwnerArticles function: An article owner retreive articles","timestamp":"2024-05-16T11:54:31.160Z"}
+{"level":"info","message":"getAllPublishedBlogs function: published blog successfully returned to both login and not login users","timestamp":"2024-05-16T18:05:08.574Z"}
+{"level":"info","message":"getAllPublishedBlogs function: published blog successfully returned to both login and not login users","timestamp":"2024-05-16T18:11:35.076Z"}
+{"level":"info","message":"getAllPublishedBlogs function: published blog successfully returned to both login and not login users","timestamp":"2024-05-16T18:11:36.039Z"}
+{"level":"info","message":"getAllPublishedBlogs function: published blog successfully returned to both login and not login users","timestamp":"2024-05-16T18:11:36.625Z"}
+{"level":"info","message":"getAllPublishedBlogs function: published blog successfully returned to both login and not login users","timestamp":"2024-05-16T18:48:51.868Z"}
+{"level":"info","message":"getAllPublishedBlogs function: published blog successfully returned to both login and not login users","timestamp":"2024-05-16T18:50:40.639Z"}
