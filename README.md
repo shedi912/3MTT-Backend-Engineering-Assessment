@@ -25,7 +25,7 @@ ACCESS_TOKEN_SECRET = "generate any view that can serve as secret to be used by 
 2. Run: 'npm run dev' from the command to startup local http server
 
 ## Endpoints
-1. http://localhost:3000/api/users/signup: create a new user account
+1. https://shedrack-3mtt-backend-assessment.onrender.com/api/users/signup :create a new user account
 method: POST
     {
   "email": "example@gmail.com",
@@ -33,7 +33,7 @@ method: POST
   "last_name": "example lastname",
   "password": "your login password"
 }
-2. http://localhost:3000/api/users/signin: login to perform user related task e.g add new blog
+2. https://shedrack-3mtt-backend-assessment.onrender.com/api/users/signin : login to perform user related task e.g add new blog
 method: POST
 {
   "email": "example@gmail.com",
@@ -50,18 +50,18 @@ method: POST
   "tags": "Tech, web development",
   "body": "My journey in tech can be described as a gracefulled one. "
 }
-4. http://localhost:3000/api/blog/article/list?page=1&per_page=20&search=author,shedrack&sortby=title,1 : get list of published blogs
+4. http://localhost:3000](https://shedrack-3mtt-backend-assessment.onrender.com/api/blog/article/list?page=1&per_page=20&search=author,shedrack&sortby=title,1 : get list of published blogs
 method:GET
 
 this endpoint returns totalArticles so frontend can build pagination system
-5. http://localhost:3000/api/blog/article/12: get artcile 12 details; note 12 is the id of the article you want to retreive the detals
+5. https://shedrack-3mtt-backend-assessment.onrender.com/api/blog/article/12 : get artcile 12 details; note 12 is the id of the article you want to retreive the detals
 Method: GET
 
-6. http://localhost:3000/api/blog/article/publish/12: publish an article with an id 12
+6. https://shedrack-3mtt-backend-assessment.onrender.com/api/blog/article/publish/12: publish an article with an id 12
 Method: PUT
 Authorization: "Bearer follow by access token"
 
-7. http://localhost:3000/api/blog/article/update/12: update details of an article having id 12
+7. https://shedrack-3mtt-backend-assessment.onrender.com/api/blog/article/update/12 : update details of an article having id 12
 Method: PUT
 Authorization: "Bearer follow by access token"
 {
@@ -73,11 +73,11 @@ Authorization: "Bearer follow by access token"
   
 }
 
-8. http://localhost:3000/api/blog/article/delete/12: delete an article having id 12
+8. https://shedrack-3mtt-backend-assessment.onrender.com/api/blog/article/delete/12: delete an article having id 12
 Method: DELETE
 Authorization: "Bearer follow by access token"
 
-9. http://localhost:3000/api/blog/owner_article/list?page=1&per_page=1&state='draft': Get a list of blogs that belong to the current login user
+9. https://shedrack-3mtt-backend-assessment.onrender.com/api/blog/owner_article/list?page=1&per_page=1&state='draft' : Get a list of blogs that belong to the current login user
 Method: GET
 Authorization: "Bearer follow by access token"
 
