@@ -1,0 +1,12 @@
+{"level":"info","message":"signIn function: User successfully signed in","timestamp":"2024-05-16T10:10:30.520Z"}
+{"level":"error","message":"signIn function: User login failed. Reason: \"expiresInss\" is not allowed in \"options\"","timestamp":"2024-05-16T10:18:47.849Z"}
+{"level":"info","message":"getPublishedBlogDetails function: Articles detail retreived for both login and not login users.","timestamp":"2024-05-16T11:51:38.369Z"}
+{"level":"error","message":"validateToken function: User access denied. Reason: jwt expired","timestamp":"2024-05-16T11:52:11.472Z"}
+{"level":"error","message":"validateToken function: User access denied. Reason: jwt expired","timestamp":"2024-05-16T11:52:23.620Z"}
+{"level":"error","message":"validateToken function: User access denied. Reason: jwt expired","timestamp":"2024-05-16T11:52:37.895Z"}
+{"level":"error","message":"validateToken function: User access denied. Reason: jwt expired","timestamp":"2024-05-16T11:52:44.133Z"}
+{"level":"info","message":"signIn function: User successfully log in","timestamp":"2024-05-16T11:53:10.734Z"}
+{"level":"info","message":"getAllPublishedBlogs function: published blog successfully returned to both login and not login users","timestamp":"2024-05-16T11:53:37.574Z"}
+{"level":"info","message":"getAllPublishedBlogs function: published blog successfully returned to both login and not login users","timestamp":"2024-05-16T11:53:37.676Z"}
+{"level":"info","message":"validateToken function: User token successfully validated and acceess granted","timestamp":"2024-05-16T11:54:31.151Z"}
+{"level":"info","message":"getOwnerArticles function: An article owner retreive articles","timestamp":"2024-05-16T11:54:31.160Z"}
