@@ -21,7 +21,7 @@ To test locally,
 1. create a .env file in the api root folder and passed in the below settings
 PORT = 3000
 CONNECTION_STRING = 'add your mongodb connection string here'
-ACCESS_TOKEN_SECRET = "generate any view that can serve as secret to be used by jwt"
+ACCESS_TOKEN_SECRET = "generate any character that can serve as secret key"
 2. Run: 'npm run dev' from the command to startup local http server
 
 ## Endpoints
